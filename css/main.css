@@ -134,6 +134,10 @@ a {
   transition: all 0.1s;
 }
 
+.hero-section__img {
+  display: none;
+}
+
 /* !TABLET VERSION STARTED */
 @media screen and (max-width: 768px) {
   .container {
@@ -182,6 +186,7 @@ a {
     padding: 15px 37.5px;
   }
 }
+
 /* !TABLET VERSION FINISHED */
 
 /** MOBILE VERSION STARTED */
@@ -201,6 +206,148 @@ a {
     width: 100%;
     max-width: 343px;
   }
+
+  .hero-section__btn {
+    margin-bottom: 46px;
+  }
+
+  .hero-section__img {
+    display: block;
+    width: 327px;
+    height: 301px;
+  }
 }
 /** MOBILE VERSION FINISHED */
 /* ? HEADER STYLE FINISHED */
+
+/* ? COURSE SECTION STARTED */
+
+.course-section {
+  background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+}
+
+.course-section__block {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 24px;
+}
+
+.course-section__box {
+  position: relative;
+  width: 100%;
+  max-width: 350px;
+  border-radius: 15px;
+  padding: 64px 32px 40px;
+  background-color: #fff;
+  margin-bottom: 80px;
+}
+
+.course-block__title {
+  width: 100%;
+  max-width: 286px;
+  font-size: 32px;
+  line-height: 40px;
+  color: #fff;
+}
+
+.block-title {
+  background: linear-gradient(180deg, #ff6f48 0.04%, #f02aa6 100%);
+}
+
+.course-box__title {
+  font-size: 24px;
+  line-height: 30.24px;
+  color: var(--title);
+  margin-bottom: 24px;
+}
+
+.animation h3:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 56px;
+  height: 56px;
+  background-image: url(../img/animation-icon.svg);
+  margin-top: -24px;
+}
+
+.design h3:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 56px;
+  height: 56px;
+  background-image: url(../img/design-icon.svg);
+  margin-top: -24px;
+}
+
+.photo h3:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 56px;
+  height: 56px;
+  background-image: url(../img/photo-icon.svg);
+  margin-top: -24px;
+}
+
+.crypto h3:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 56px;
+  height: 56px;
+  background-image: url(../img/crypto-icon.svg);
+  margin-top: -24px;
+}
+
+.business h3:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 56px;
+  height: 56px;
+  background-image: url(../img/business-icon.svg);
+  margin-top: -24px;
+}
+
+.course-box__desc {
+  width: 100%;
+  max-width: 286px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  color: var(--desc);
+}
+
+.animation p {
+  margin-bottom: 24px;
+}
+
+.design p {
+  margin-bottom: 52px;
+}
+
+.photo p {
+  margin-bottom: 52px;
+}
+
+.crypto p {
+  margin-bottom: 24px;
+}
+
+.business p {
+  margin-bottom: 24px;
+}
+
+.course-box__btn {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  color: var(--btn);
+}
+
+/* ? COURSE SECTION FINISHED */
