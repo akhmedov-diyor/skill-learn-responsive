@@ -468,4 +468,25 @@ a {
   transition: all 0.1s;
 }
 
+/* !  TABLET VERSION STARTED*/
+
+@media screen and (max-width: 768px) {
+  .footer-section {
+    padding: 36px 0;
+  }
+
+  .footer-section__logo {
+    width: 89px;
+    height: 35px;
+  }
+
+  .footer-section__btn {
+    font-size: 16px;
+    padding: 10px 24px;
+    line-height: 28px;
+  }
+}
+
+/* !  TABLET VERSION FINISHED*/
+
 /* ? FOOTER SECTION FINISHED */
