@@ -429,3 +429,43 @@ a {
 /** MOBILE VERSION FINISHED */
 
 /* ? COURSE SECTION FINISHED */
+
+/* ? FOOTER SECTION STARTED */
+
+.footer-section {
+  padding: 32px 0;
+  background-color: var(--title);
+}
+
+.footer-section__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-section__logo {
+  width: 111.7px;
+  height: 27.68px;
+}
+
+.footer-section__btn {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #ffff;
+  padding: 14px 31.5px;
+  background: linear-gradient(180deg, #4851ff 0%, #f02aa6 99.92%);
+  border-radius: 28px;
+}
+
+.footer-section__btn:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+  transition: all 0.1s;
+}
+
+/* ? FOOTER SECTION FINISHED */
